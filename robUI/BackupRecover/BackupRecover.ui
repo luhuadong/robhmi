@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BackupRecover</class>
+ <widget class="QWidget" name="BackupRecover">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>500</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="widget">
+    <widget class="QLabel" name="label_Pos">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>5</y>
+       <width>800</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>备份与恢复</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Backup">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>200</y>
+       <width>150</width>
+       <height>130</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>备份当前系统...</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Recover">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>200</y>
+       <width>150</width>
+       <height>130</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>恢复系统...</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

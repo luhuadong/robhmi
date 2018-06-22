@@ -1,0 +1,107 @@
+*{     
+	font-family:"宋体";   
+}  
+
+
+
+
+
+QPushButton{
+    border:1px solid gray;
+    border-radius: 10px;
+}
+
+QPushButton:hover{
+    color:white;
+    background:blue;
+}
+
+QMenu{  
+    background-color: white;  
+    border-radius: 10px;  
+    color: black;  
+	font-size:18px;   
+	border: 1px solid gray;  
+    height: 200px;  
+    width: 500px;  	
+} 
+
+QMenu::item#widget_btn{ 
+	padding:10px;
+	background:yellow;
+	color:red;
+}
+QMenu::item:widget_btn{ 
+	padding:13px;
+	background:white;
+	color:black;
+}
+
+QMenu item:hover:widget_btn{
+	padding:10px;
+	background:blue;
+}
+
+QMenu item:hover#widget_btn{
+	padding:10px;
+	background:red;
+}
+
+RoStateBySys QPushButton:checked{
+    color:black;
+    background:red;
+}
+
+RoStateBySys QPushButton:hover{
+	color:black;
+	background:#d9d9d9;
+}
+
+RoPageOption QWidget#openNC_widget{
+	
+	background-color:rgb(166, 158, 161);
+}
+
+RoPageOption QWidget#widget_vkey{
+	
+	background-color:rgb(245,245,245);
+}
+
+RoPageOption QWidget#Program_widget{
+	
+	background-color:rgb(166, 158, 161);
+}
+
+RoPageOption RoPageProgram QPushButton{
+	border:0px solid gray;
+}
+
+buttonWidget#QPushButton{
+        border:0px solid gray;
+}
+
+RoPageOption QPushButton:checked{
+    color:black;
+    background:white;
+}
+
+QGroupBox{
+	border-width:2px;
+	border-style:solid;
+	border-color:white;
+	margin-top:0.5ex;
+}
+
+QGroupBox::title{
+	subcontrol-origin:margin;
+	subcontrol-position:top left;
+	left:10px;
+	margin-left:0px;
+	padding:0.1px;
+}
+
+
+
+
+
+

@@ -1,0 +1,6 @@
+O00001;
+MOVJ * V30 Z0 ;
+MOVC * V30 Z0 ;
+ADD R1 ;
+JUMP LAB2, IF B1 <= 5 ;
+%

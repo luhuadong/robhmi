@@ -1,0 +1,24 @@
+CREATE ..\..\..\robhmi\hmi\lib\libControlPanel.a
+ADDMOD debug\ControlPanel.o
+ADDMOD debug\Appearance.o
+ADDMOD debug\ProgKeys.o
+ADDMOD debug\Configuration.o
+ADDMOD debug\DateTime.o
+ADDMOD debug\Diagnosis.o
+ADDMOD debug\Language.o
+ADDMOD debug\Monitoring.o
+ADDMOD debug\TouchScreen.o
+ADDMOD debug\FlexPendant.o
+ADDMOD debug\IO.o
+ADDMOD debug\moc_ControlPanel.o
+ADDMOD debug\moc_Appearance.o
+ADDMOD debug\moc_ProgKeys.o
+ADDMOD debug\moc_Configuration.o
+ADDMOD debug\moc_DateTime.o
+ADDMOD debug\moc_Diagnosis.o
+ADDMOD debug\moc_Language.o
+ADDMOD debug\moc_Monitoring.o
+ADDMOD debug\moc_TouchScreen.o
+ADDMOD debug\moc_FlexPendant.o
+ADDMOD debug\moc_IO.o
+SAVE

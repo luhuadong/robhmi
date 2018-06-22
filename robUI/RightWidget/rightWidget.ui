@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>rightWidget</class>
+ <widget class="QWidget" name="rightWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>200</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="widget_main" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>200</width>
+     <height>600</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QPushButton" name="btn_Minimize">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>0</y>
+      <width>30</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="../../hmi/resource.qrc">
+      <normaloff>:/images/bin/resource/images/minimize.png</normaloff>:/images/bin/resource/images/minimize.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>23</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_ChangeLeftView">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>20</y>
+      <width>30</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="../../hmi/resource.qrc">
+      <normaloff>:/images/bin/resource/images/left.right.png</normaloff>:/images/bin/resource/images/left.right.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>23</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_Close">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>0</y>
+      <width>30</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="../../hmi/resource.qrc">
+      <normaloff>:/images/bin/resource/images/close.png</normaloff>:/images/bin/resource/images/close.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>23</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_HoldToRun">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>320</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Hold To Run</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_RunOrStop" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>350</y>
+      <width>131</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <widget class="QPushButton" name="btn_Run">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>0</y>
+       <width>50</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="../../hmi/resource.qrc">
+       <normaloff>:/images/bin/resource/images/Play.png</normaloff>:/images/bin/resource/images/Play.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>50</width>
+       <height>50</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Stop">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>100</y>
+       <width>50</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="../../hmi/resource.qrc">
+       <normaloff>:/images/bin/resource/images/Stop.png</normaloff>:/images/bin/resource/images/Stop.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>50</width>
+       <height>40</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Next">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>50</y>
+       <width>50</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="../../hmi/resource.qrc">
+       <normaloff>:/images/bin/resource/images/Next.png</normaloff>:/images/bin/resource/images/Next.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>50</width>
+       <height>50</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Prior">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>50</y>
+       <width>50</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="../../hmi/resource.qrc">
+       <normaloff>:/images/bin/resource/images/Prior.png</normaloff>:/images/bin/resource/images/Prior.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>50</width>
+       <height>40</height>
+      </size>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="btn_ShowOrHideLeft">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>30</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_Enable">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>160</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Enable</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_Move" native="true">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>200</y>
+      <width>121</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <widget class="QPushButton" name="btn_Clockwise">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>40</y>
+       <width>20</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="../../hmi/resource.qrc">
+       <normaloff>:/images/bin/resource/images/clockwise.png</normaloff>:/images/bin/resource/images/clockwise.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>20</width>
+       <height>23</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Anticlockwise">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>40</y>
+       <width>20</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="../../hmi/resource.qrc">
+       <normaloff>:/images/bin/resource/images/anticlockwise.png</normaloff>:/images/bin/resource/images/anticlockwise.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>20</width>
+       <height>23</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_RightUp">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>20</y>
+       <width>20</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="../../hmi/resource.qrc">
+       <normaloff>:/images/bin/resource/images/rightUp.png</normaloff>:/images/bin/resource/images/rightUp.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>20</width>
+       <height>23</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_LeftUp">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>20</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="../../hmi/resource.qrc">
+       <normaloff>:/images/bin/resource/images/leftUp.png</normaloff>:/images/bin/resource/images/leftUp.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>20</width>
+       <height>30</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Down">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>80</y>
+       <width>20</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="../../hmi/resource.qrc">
+       <normaloff>:/images/bin/resource/images/dir_down.png</normaloff>:/images/bin/resource/images/dir_down.png</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_LeftDown">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>60</y>
+       <width>20</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="../../hmi/resource.qrc">
+       <normaloff>:/images/bin/resource/images/leftDown.png</normaloff>:/images/bin/resource/images/leftDown.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>20</width>
+       <height>23</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Right">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>40</y>
+       <width>20</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="../../hmi/resource.qrc">
+       <normaloff>:/images/bin/resource/images/dir_right.png</normaloff>:/images/bin/resource/images/dir_right.png</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Up">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>0</y>
+       <width>20</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="../../hmi/resource.qrc">
+       <normaloff>:/images/bin/resource/images/dir_up.png</normaloff>:/images/bin/resource/images/dir_up.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>20</width>
+       <height>23</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_RightDown">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>60</y>
+       <width>20</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="../../hmi/resource.qrc">
+       <normaloff>:/images/bin/resource/images/rightDown.png</normaloff>:/images/bin/resource/images/rightDown.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>20</width>
+       <height>23</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Left">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>40</y>
+       <width>20</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="../../hmi/resource.qrc">
+       <normaloff>:/images/bin/resource/images/dir_left.png</normaloff>:/images/bin/resource/images/dir_left.png</iconset>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget_Shortcut" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>40</y>
+      <width>171</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <widget class="QPushButton" name="btn_Shortcut_2">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>0</y>
+       <width>75</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Shortcut_4">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>50</y>
+       <width>75</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Shortcut_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>50</y>
+       <width>75</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Shortcut_1">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>75</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget_Chagne" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>160</y>
+      <width>51</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <widget class="QPushButton" name="btn_ChangeLine">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>50</y>
+       <width>45</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_ChangeMoveAxis">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>90</y>
+       <width>45</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_ChangeSpeed">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>130</y>
+       <width>45</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Change">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>10</y>
+       <width>45</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget_ChangeState" native="true">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>240</y>
+      <width>91</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(130, 130, 130);</string>
+    </property>
+    <widget class="QRadioButton" name="radioButton_automatic">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>70</y>
+       <width>12</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_manual">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>50</y>
+       <width>12</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_execute">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>70</y>
+       <width>12</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_MotorEnable">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>10</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="btn_ChangeState">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>240</y>
+      <width>21</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>btn_Minimize</zorder>
+   <zorder>btn_ChangeLeftView</zorder>
+   <zorder>btn_Close</zorder>
+   <zorder>btn_HoldToRun</zorder>
+   <zorder>widget_RunOrStop</zorder>
+   <zorder>btn_ShowOrHideLeft</zorder>
+   <zorder>btn_Enable</zorder>
+   <zorder>widget_Move</zorder>
+   <zorder>widget_Shortcut</zorder>
+   <zorder>widget_Chagne</zorder>
+   <zorder>btn_ChangeState</zorder>
+   <zorder>widget_ChangeState</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../../hmi/resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HMI_ParaSet</class>
+ <widget class="QWidget" name="HMI_ParaSet">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>500</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="page">
+    <widget class="QWidget" name="widget" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>450</y>
+       <width>800</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(145, 145, 145,);
+</string>
+     </property>
+     <widget class="QPushButton" name="btn_acq">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>0</y>
+        <width>160</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>恢复默认值</string>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_ok">
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>0</y>
+        <width>160</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>确定</string>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="label_Pos">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>5</y>
+       <width>800</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>参数设置</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>100</y>
+       <width>800</width>
+       <height>350</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox">
+     <property name="geometry">
+      <rect>
+       <x>590</x>
+       <y>50</y>
+       <width>200</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <item>
+      <property name="text">
+       <string>关节加速度</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>笛卡尔加速度</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>奇异点</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>机器人配置</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>偏移参数</string>
+      </property>
+     </item>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

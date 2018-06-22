@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SystemInfo</class>
+ <widget class="QWidget" name="SystemInfo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTreeWidget" name="treeWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>30</y>
+     <width>280</width>
+     <height>460</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="headerHidden">
+    <bool>true</bool>
+   </property>
+   <column>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </column>
+   <item>
+    <property name="text">
+     <string>控制器属性</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>网络连接</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>服务端口</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>WAN</string>
+      </property>
+     </item>
+    </item>
+    <item>
+     <property name="text">
+      <string>已安装系统</string>
+     </property>
+    </item>
+   </item>
+   <item>
+    <property name="text">
+     <string>系统属性</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>控制模块</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>选项</string>
+      </property>
+     </item>
+    </item>
+    <item>
+     <property name="text">
+      <string>驱动模块</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Robot1</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>选项</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>Robot2</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>选项</string>
+       </property>
+      </item>
+     </item>
+    </item>
+    <item>
+     <property name="text">
+      <string>附加选项</string>
+     </property>
+    </item>
+   </item>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>30</y>
+     <width>520</width>
+     <height>460</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_refresh">
+   <property name="geometry">
+    <rect>
+     <x>514</x>
+     <y>442</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>刷新</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_Pos">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>5</y>
+     <width>800</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>系统信息</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

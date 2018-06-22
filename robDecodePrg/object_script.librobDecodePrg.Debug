@@ -1,0 +1,12 @@
+CREATE ..\..\robhmi\hmi\lib\librobDecodePrg.a
+ADDMOD debug\decode_instructions.o
+ADDMOD debug\decode_lexical_analysis.o
+ADDMOD debug\decode_parse_file.o
+ADDMOD debug\decode_proc_task.o
+ADDMOD debug\decode_typestructs.o
+ADDMOD debug\decode_public.o
+ADDMOD debug\robotdecodepublic.o
+ADDMOD debug\robotpgfxmlparser.o
+ADDMOD debug\robotprgfilestruct.o
+ADDMOD debug\robotvariablestruct.o
+SAVE
